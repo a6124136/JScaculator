@@ -118,7 +118,7 @@ document.addEventListener('keypress',(e)=>{
     console.log(Oprations.some(i=>outPut2.innerText.includes(i)))
     // 判斷是否包含條件陣列內的值
     //這邊可以求出OP2裡若有運算元的話  回傳true
-    if(e.key ==="x"){
+    if(e.key ==="X"){
 
         outPut.innerText = "";
         outPut2.innerText = "";
